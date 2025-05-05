@@ -1,0 +1,85 @@
+.product-detail {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-detail img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-detail p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product-detail {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-detail img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-detail p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* ✅ Tombol Kembali */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #FFD1DC; /* Hijau Sage Pastel */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.back-button:hover {
+    background-color: #FFD1DC;
+}
+
+/* ✅ Responsive buat HP */
+@media (max-width: 600px) {
+    .product-detail {
+        padding: 30px 10px;
+    }
+    .product-detail h2 {
+        font-size: 20px;
+    }
+    .product-detail p {
+        font-size: 14px;
+    }
+}
+
+
+/* ✅ Responsive buat HP */
+@media (max-width: 600px) {
+    .product-detail {
+        padding: 30px 10px;
+    }
+    .product-detail h2 {
+        font-size: 20px;
+    }
+    .product-detail p {
+        font-size: 14px;
+    }
+}
